@@ -2,7 +2,7 @@
 A lightweight Command Line Interface (CLI) application built with Python and the Gemini API that generates structured study plans for any topic and allows interactive follow-up questions in a persistent chat loop.
 
 # FEATURES
-<b> a.Structured Study Plans: <b> Enter a topic to get immediate, organized subtopics, recommended study order, and concise descriptions.
+ a.Structured Study Plans: Enter a topic to get immediate, organized subtopics, recommended study order, and concise descriptions.
 
 <img width="1059" height="847" alt="image" src="https://github.com/user-attachments/assets/9242adb7-7216-4601-ac16-7e3e436bd958" />
 
@@ -12,15 +12,20 @@ A lightweight Command Line Interface (CLI) application built with Python and the
 
 <img width="1052" height="708" alt="image" src="https://github.com/user-attachments/assets/787cbd60-c0b3-4d0c-8539-16a94c6f8eb0" />
 
-<b> b.Context-Aware Chat: <b> Ask deep-dive follow-up questions about any part of the study plan.
+ b.Context-Aware Chat: Ask deep-dive follow-up questions about any part of the study plan.
 
+<img width="1288" height="799" alt="image" src="https://github.com/user-attachments/assets/28abc642-c87c-4a5f-aeb7-4663578a6bd7" />
 
-<b> c.Session Summary: <b> Automatically logs and displays your session statistics upon typing exit or quit.
+<img width="1284" height="827" alt="image" src="https://github.com/user-attachments/assets/1a0e6399-23a8-4e38-9d2d-045da8af3621" />
+
+ c.Session Summary:  Automatically logs and displays your session statistics upon typing exit or quit.
+
+ <img width="525" height="245" alt="image" src="https://github.com/user-attachments/assets/c018b283-0d3e-4cd1-b881-5143a3e08041" />
 
 # PROMPT ENGINEER WRITEUP
 
 ### 1. What role did you assign in your system prompt, and why did you choose that framing?
-    
+
 I assigned the role of highly academic syllabus designer and personal tutor ,beacuse By combining an "academic syllabus designer" with a "personal tutor," the model is primed to deliver a highly organized, curriculum-based roadmap initially, while remaining equipped to provide supportive, digestible breakdowns during the subsequent interactive Q&A chat loop.
 
 ### ​2. What format did you specify for the study plan output, and how did you enforce it in the prompt? 
