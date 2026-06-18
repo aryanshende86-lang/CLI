@@ -19,26 +19,28 @@ A lightweight Command Line Interface (CLI) application built with Python and the
 
 # PROMPT ENGINEER WRITEUP
 
-<b> 1. What role did you assign in your system prompt, and why did you choose that framing? <b>
+### 1. What role did you assign in your system prompt, and why did you choose that framing?
+    
 I assigned the role of highly academic syllabus designer and personal tutor ,beacuse By combining an "academic syllabus designer" with a "personal tutor," the model is primed to deliver a highly organized, curriculum-based roadmap initially, while remaining equipped to provide supportive, digestible breakdowns during the subsequent interactive Q&A chat loop.
 
-<b> ​2. What format did you specify for the study plan output, and how did you enforce it in the prompt? <b>
-Specified Format:
-The prompt specifies an "important and concise study plan" that strictly avoids conversational filler. For subsequent doubts, it explicitly demands a "short explanation with comprehensive paragraph and bullet points."
+### ​2. What format did you specify for the study plan output, and how did you enforce it in the prompt? 
+
+Specified Format: The prompt specifies an "important and concise study plan" that strictly avoids conversational filler. For subsequent doubts, it explicitly demands a "short explanation with comprehensive paragraph and bullet points."
 ​How it is enforced:
 It is enforced using direct behavioral constraints and negative constraints within the SYSTEM_INSTRUCTION string (lines 17–18):
 ​Negative Constraint: "DO NOT use overly casual language or include unnecessary conversational filler."
 ​Direct Instruction: "keep your explanation short with comprehensive paragraph and bullet points."
 
-​<b> 3. What happens if you remove the system prompt entirely - how does the output change? <b>
+### 3.What happens if you remove the system prompt entirely - how does the output change? 
+
 ​If the SYSTEM_INSTRUCTION is removed from the config object :
-​<b>Loss of Professional Structure:<b> The model will lose its persona as a structured syllabus designer, likely yielding loose text blocks rather than a clean, step-by-step roadmap.
-​<b>Inclusion of Filler Text:<b> The model will lapse into default conversational tendencies, generating standard introductory and concluding pleasantries (e.g., "Sure! I can help you learn that topic..."), which breaks the clean look of the CLI output headers.
-​<b>Unpredictable Length:<b> Follow-up answers in the chat session will become longer and more verbose, ignoring the requirement to keep explanations short and structured cleanly with paragraphs and bullets.
+​Loss of Professional Structure: The model will lose its persona as a structured syllabus designer, likely yielding loose text blocks rather than a clean, step-by-step roadmap.
+​Inclusion of Filler Text: The model will lapse into default conversational tendencies, generating standard introductory and concluding pleasantries (e.g., "Sure! I can help you learn that topic..."), which breaks the clean look of the CLI output headers.
+​Unpredictable Length: Follow-up answers in the chat session will become longer and more verbose, ignoring the requirement to keep explanations short and structured cleanly with paragraphs and bullets.
 
 # SETUP AND INSTALLATION
 
-<b> Clone the repository <b>
+ Clone the repository
 git clone https://github.com/aryanshende86-lang/AI- Powered Study Assistant CLI.git
 cd your-repo-name
 
