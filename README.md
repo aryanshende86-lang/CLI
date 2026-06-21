@@ -5,25 +5,18 @@ A lightweight Command Line Interface (CLI) application built with Python and the
 ### a.Structured Study Plans: 
 Enter a topic to get immediate, organized subtopics, recommended study order, and concise descriptions.
 
-<img width="1059" height="847" alt="image" src="https://github.com/user-attachments/assets/9242adb7-7216-4601-ac16-7e3e436bd958" />
-
-<img width="1061" height="844" alt="image" src="https://github.com/user-attachments/assets/f9b5efaa-67e1-4fa7-a6c6-49f030377b55" />
-
-<img width="1045" height="839" alt="image" src="https://github.com/user-attachments/assets/025a067c-1170-43b5-ba07-f4c00a9f72ce" />
-
-<img width="1052" height="708" alt="image" src="https://github.com/user-attachments/assets/787cbd60-c0b3-4d0c-8539-16a94c6f8eb0" />
+<img width="1015" height="663" alt="image" src="https://github.com/user-attachments/assets/4d77f9f7-7c9d-4560-b1f6-80779edf4b89" />
 
 ### b.Context-Aware Chat: 
 Ask deep-dive follow-up questions about any part of the study plan.
 
-<img width="1288" height="799" alt="image" src="https://github.com/user-attachments/assets/28abc642-c87c-4a5f-aeb7-4663578a6bd7" />
-
-<img width="1284" height="827" alt="image" src="https://github.com/user-attachments/assets/1a0e6399-23a8-4e38-9d2d-045da8af3621" />
+<img width="998" height="853" alt="image" src="https://github.com/user-attachments/assets/bae1feea-48b1-4462-ba35-28b6bec26370" />
 
 ### c.Session Summary: 
 Automatically logs and displays your session statistics upon typing exit or quit.
 
- <img width="525" height="245" alt="image" src="https://github.com/user-attachments/assets/c018b283-0d3e-4cd1-b881-5143a3e08041" />
+<img width="475" height="222" alt="image" src="https://github.com/user-attachments/assets/8aae5285-fa83-4a26-8cd7-6da4e6a98f2a" />
+
 
 # PROMPT ENGINEER WRITEUP
 
